@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans',sans-serif;
+    scroll-behavior: smooth;
+}
+ 
+.navbar{
+    background:#fff;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: static;
+    top: 0;
+    z-index: 999;
+}
+#navbar__logo{
+    background-color: white;
+    background-image: linear-gradient(to top,plum,0%,black 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration:none ;
+    font-size: 3.5rem ;
+}
+#navbar__logo span{
+    background-color: white;
+    background-image: linear-gradient(to top,plum,0%,#cc7a00 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration:none ;
+    font-size: 3.5rem ;
+    }
+
+    .navbar__container{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 50px;
+    }
+    
+    .navbar__menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .navbar__item{
+        height:80px;
+    }
+
+    .navbar__links{
+        color: black;
+        display: flex;
+        font-size: 1.8rem;
+        align-items: center;
+        justify-content: center;
+        width: 300px ;
+        text-decoration: none;
+        height: 100%;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar__links:hover{
+        color: #cc7a00;
+        transition: all 0.3s ease;
+    }
+
+    .hero{
+        display: flex;
+        background-color: #fff;
+       height: 100%;
+        padding: 30px 0;
+        
+    }
+
+    .hero__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width:1200px; 
+        margin: 0 auto;
+        height: 99%;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .hero__heading{
+        font-size: 45px;
+        margin-bottom: 500px;
+        color: black;
+    }
+
+    .img1{
+ display: block;
+  margin-left:400px;
+   margin-right:400px;
+  margin-top: 900px;
+  
+    height: 600px;
+    width: 600px;
+        }
+
+        .text{
+            font-size: 2em;
+            margin-bottom: 24px;
+            color:black;
+            margin-left: 400px;
+            margin-right:
+            400px;
+            margin-top:10px;
+            
+        }
+        .buttom{
+           margin-top: 5px;
+        }
+        .main__btn{
+            font-size: 1.8em;
+            background: #ed8f03;
+            background: -webkit-linear-gradient(to right, #ffb75e,#ed8f03);
+            background: linear-gradient(to right, #ffb75e,#ed8f03);
+            padding: 20px 60px;
+            border: none;
+            border-radius: 4px;
+            margin-top: 2rem;
+            color:white;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.35s ease ;
+            outline: none;
+            margin-bottom:5px;
+        }
+        
+        .main__btn a {
+            position: relative;
+            z-index: 2;
+            color: #fff;
+            text-decoration: none;
+            
+        }
+
+        .main__btn:after{
+            position: absolute;  
+            content:'' ;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background:#ffd194;
+            transition: all 0.35s;
+            border-radius: 4px;
+          }
+          .main__btn:hover{
+              color: #fff;
+          }
+          
+          .main__btn:hover::after{
+             width: 50%;
+           }
+       
